@@ -22,7 +22,7 @@ public class VectorSortTest {
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{1.2, 3.5, 5, 10, 60.7, 81, 82,}));
         assertEquals("Vector is not sorted", VectorSort.sort(new double[]{12.5, 13.6, 15, 33.6, 62, 81, 67,}));
         assertEquals("Vector is not sorted", VectorSort.sort(new double[]{15.3, 32, 41.5, -3, -6.4, -8, -6,}));
-        assertEquals("Vector is not sorted", VectorSort.sort(new double[]{3.44, 2, 1,4, -3, -6.4, -8, -6,}));
+        assertEquals("Vector is not sorted", VectorSort.sort(new double[]{3.44, 2, 1, 4, -3, -6.4, -8, -6,}));
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{-9, -8.4, -7, -6.6, -5, -4.3, -3,}));
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{-9, -8, -7.2, -6.45, -5, -4.45, -4,}));
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{-1, -2.3, -5.1, -5.4, -5.8, -6.4, -7,}));

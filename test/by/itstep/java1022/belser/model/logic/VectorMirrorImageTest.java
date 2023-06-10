@@ -1,12 +1,13 @@
 package by.itstep.java1022.belser.model.logic;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class VectorMirrorImageTest {
 
     @Test
-    public void vectorMirrorImage(){
+    public void vectorMirrorImage() {
 
         String expected = "Vector is not mirrored";
         int[] vector = {1, 2, 3, 4, 6, 7, 8, 9};
