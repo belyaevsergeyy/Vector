@@ -6,7 +6,7 @@ import org.junit.Test;
 public class VectorQuantityEvenAndOddElementTest {
 
     @Test
-    public void vectorQuantityEvenAndOddElementPositive(){
+    public void vectorQuantityEvenAndOddElement(){
 
     }
 
