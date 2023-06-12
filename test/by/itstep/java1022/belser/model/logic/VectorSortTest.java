@@ -26,6 +26,8 @@ public class VectorSortTest {
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{-9, -8.4, -7, -6.6, -5, -4.3, -3,}));
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{-9, -8, -7.2, -6.45, -5, -4.45, -4,}));
         assertEquals("Vector is sorted", VectorSort.sort(new double[]{-1, -2.3, -5.1, -5.4, -5.8, -6.4, -7,}));
+        assertEquals("Vector is sorted", VectorSort.sort(new double[]{-1, -2.3}));
+        assertEquals("invalid data", VectorSort.sort(new double[0]));
 
 
     }

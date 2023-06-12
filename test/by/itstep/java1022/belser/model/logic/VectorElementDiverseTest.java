@@ -25,6 +25,8 @@ public class VectorElementDiverseTest {
         assertEquals("Elements is not diverse", VectorElementDiverse.elementDiverse(new int[]{1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1}));
         assertEquals("Elements is not diverse", VectorElementDiverse.elementDiverse(new int[]{1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1}));
         assertEquals("Elements is not diverse", VectorElementDiverse.elementDiverse(new int[]{1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
+        assertEquals("invalid data", VectorElementDiverse.elementDiverse(new int[]{1}));
+        assertEquals("invalid data", VectorElementDiverse.elementDiverse(new int[]{}));
 
     }
 }

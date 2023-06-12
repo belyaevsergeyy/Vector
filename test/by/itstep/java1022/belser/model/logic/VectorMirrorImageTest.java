@@ -29,6 +29,10 @@ public class VectorMirrorImageTest {
         assertEquals("Vector is mirrored", VectorMirrorImage.mirrorImage(new int[]{-1, -2, -5, -5, -5, -5, -2, -1}));
         assertEquals("Vector is mirrored", VectorMirrorImage.mirrorImage(new int[]{-1, -2, -5, 4, 4, -5, -2, -1}));
         assertEquals("Vector is not mirrored", VectorMirrorImage.mirrorImage(new int[]{-1, -2, -5, 4, -4, -5, -2, -1}));
+        assertEquals("Vector is not mirrored", VectorMirrorImage.mirrorImage(new int[]{-1, -2}));
+        assertEquals("Vector is mirrored", VectorMirrorImage.mirrorImage(new int[]{1, 1}));
+        assertEquals("invalid data", VectorMirrorImage.mirrorImage(new int[]{1}));
+        assertEquals("invalid data", VectorMirrorImage.mirrorImage(new int[]{}));
 
     }
 }

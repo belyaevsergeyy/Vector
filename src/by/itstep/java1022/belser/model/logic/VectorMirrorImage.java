@@ -1,13 +1,17 @@
 package by.itstep.java1022.belser.model.logic;
 
 public class VectorMirrorImage {
-    public static String mirrorImage(int[] vector){
+    public static String mirrorImage(int[] vector) {
+
+        if (vector.length <= 1) {
+            return "invalid data";
+        }
         int x = vector.length / 2;
         int middle = vector[x];
         int middleMirror = vector[x - 1];
         String msg = "Vector is mirrored";
         for (int i = 0; i < x; i++) {
-            if (middle != middleMirror){
+            if (middle != middleMirror) {
                 msg = "Vector is not mirrored";
                 break;
             }
